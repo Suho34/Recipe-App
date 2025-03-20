@@ -42,7 +42,7 @@ export default function Details() {
             <img
               src={recipeDetailsData.image_url}
               alt={recipeDetailsData.title}
-              className="recipe-image"
+              className="recipe-image-bar"
             />
             <p className="recipe-publisher">{recipeDetailsData.publisher}</p>
             <h1 className="recipe-title">{recipeDetailsData.title}</h1>
